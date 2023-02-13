@@ -11,6 +11,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @Configuration
+
+// Hello Iam Security Configeration ?
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class OurSecurityConfiguration extends WebSecurityConfigurerAdapter {
